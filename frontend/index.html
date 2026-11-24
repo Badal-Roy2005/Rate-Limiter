@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rate-limiter</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Rate-Limiter</h1>
+      <div id="counter">
+        <h2>Total Requests: <span id="request">0</span></h2>
+
+        <p>Remaining: <span id="remaining">5</span> / 5</p>
+
+        <p>Time Remaining: <span id="timer">60</span> seconds</p>
+
+        <div id="emoji">🙂</div>
+
+        <p id="message">Click below to send a request!</p>
+
+        <button id="submit-button" type="button">Request</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
